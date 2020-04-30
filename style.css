@@ -83,11 +83,14 @@ p {
   .profile {
     width: 49%;
     min-height: 150px;
-    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: row;
   }
 
   .photo img {
-    width: 100px;
+    max-width: 100px;
   }
 
   h2,
