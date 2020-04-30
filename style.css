@@ -40,7 +40,7 @@ h1 {
   padding-left: 1rem;
   padding-right: 1rem;
   margin-bottom: 1.2rem;
-  width: 300px;
+  max-width: 300px;
   min-height: 300px;
 }
 
@@ -81,7 +81,7 @@ p {
   }
 
   .profile {
-    width: 49%;
+    max-width: 49%;
     min-height: 150px;
     display: flex;
     justify-content: flex-start;
